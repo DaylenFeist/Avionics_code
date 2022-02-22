@@ -1,0 +1,1 @@
+In order to run the .ino's you neeed Adafruit_BusIO installed in sketch -> include/library -> manage Libraries and download Adafruit_BusIO 
