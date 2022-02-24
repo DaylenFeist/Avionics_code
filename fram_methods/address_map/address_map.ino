@@ -24,7 +24,7 @@ void setup(void) {
   uint8_t test = fram.read(0x0);
   Serial.print("Restarted "); Serial.print(test); Serial.println(" times");
   // Test write ++
-  fram.write(0x0, test+1);
+  fram.write(0x0, test);
   
   // dump the entire 32K of memory!
   uint8_t value;
